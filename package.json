@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "db-migrate-mysql": "^2.2.0",
+    "express": "^4.17.3",
+    "express-boom": "^3.0.0",
+    "init": "^0.1.2",
+    "mysql2": "^2.3.3"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  }
+}

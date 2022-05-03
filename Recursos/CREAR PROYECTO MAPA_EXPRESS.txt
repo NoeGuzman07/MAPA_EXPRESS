@@ -1,0 +1,65 @@
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop
+$ cd MAPA_EXPRESS
+
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS
+$ npm install init -y
+
+added 2 packages, and audited 3 packages in 1s
+
+found 0 vulnerabilities
+
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS
+$ git init
+Initialized empty Git repository in C:/Users/noe_n/Desktop/MAPA_EXPRESS/.git/
+
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS (main)
+$ npm i express
+
+added 50 packages, and audited 53 packages in 2s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS (main)
+$ npm i mysql2
+
+added 14 packages, and audited 67 packages in 1s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS (main)
+$ npm i nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier -D
+
+added 186 packages, and audited 253 packages in 10s
+
+29 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS (main)
+$ code .
+
+
+PARA CORRER EL PROYECTO:
+noe_n@DESKTOP-JR1DKT9 MINGW64 ~/desktop/MAPA_EXPRESS (main)
+$ npm run dev
+
+
+{
+    "nombre": "Tacos de la Cholita",
+    "calidad": 4,
+    "precio": 25,
+    "comentario": "Bien Casiqueados",
+    "latitud": 222,
+    "longitud": 434,
+    "pagina_fb": "instagram.com/taquito-de-oro"
+}
+
+COMANDO PARA INSTALAR LOS COMPONENTES HAPI BOOM
+npm i @hapi/boom
